@@ -271,15 +271,12 @@
               animation: false,
             });
 
+
             animatedBlocks[i].addEventListener('mouseenter', () => {
               handleStartAnimation(i);
             });
 
             animatedBlocks[i].addEventListener('mouseleave', () => {
-              handleEndAnimation(i);
-            });
-
-            animatedBlocks[i].addEventListener('click', () => {
               handleEndAnimation(i);
             });
           }
